@@ -233,3 +233,97 @@ footer {
 .lunch .content div img {
   width: 180px;
 }
+
+.strength,
+.aerobic {
+  margin: 2rem 0;
+}
+
+.aerobic__content,
+.strength__content {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  background-color: #fff;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.7rem;
+}
+
+.aerobic__content div,
+.strength__content div {
+  border-radius: 0.7rem;
+  position: relative;
+}
+
+.aerobic__content div img,
+.strength__content div img {
+  object-fit: cover;
+  object-position: top;
+  border-radius: 0.7rem;
+  height: 300px;
+  width: 100%;
+}
+
+.profile__header {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.profile__header img {
+  width: 200px;
+}
+
+.profile__header div {
+  margin: 1rem 0;
+  background-color: #8d8d8d;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 2rem;
+}
+
+.form__content {
+  margin: 1rem 0;
+}
+
+.form__content div {
+  border: solid 2px #fff;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+}
+
+.form__content label {
+  text-transform: capitalize;
+}
+
+.form__content div {
+  margin-top: 0.7rem;
+}
+
+.form__content div input {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  width: 80%;
+  padding: 0.5rem;
+}
+
+.form__logout {
+  margin-top: 5rem;
+  border: solid 3px #ee8924;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0.7rem;
+}
+
+.form__logout a {
+  color: #ee8924;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
